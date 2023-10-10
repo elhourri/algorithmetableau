@@ -1,0 +1,22 @@
+algorithme: notes
+variables   tableau T(10):reel
+            i,nb:entier
+            s,m:reel
+debut
+	pour i<--0 a 9 faire
+	 ecrire("donner la note d eleve")
+	 lire(T(i))
+	fin pour
+	s<--0
+	pour i<--0 a 9 faire
+	 s<--s+T(i)
+	fin pour
+	m<--s/10
+	nb<--0
+	pour i<--0 a 9 faire
+	 si T(i)>m alors
+	 nb<--nb+1
+	 fin si
+	fin pour
+        ecire("le nombre des notes superieures a la moyyenne est:"nb)
+fin

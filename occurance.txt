@@ -1,0 +1,18 @@
+algorithme:occurrences
+variables   tableauT(50):entier
+	    i,n,m:entier
+debut
+	pouri<---0 a 49 faire
+	 ecrire("entrer un nombre")
+	 lire(T(i))
+	fin pour
+	ecrrire("donner un nombre")
+	lire(n)
+	m<--0
+	pour i<--0 a 49 faire
+	 si n=T(i) faire
+	 m<---m+1
+	 fin si
+	fin pour	
+	ecrire("le nombre d occurances est",m)
+fin

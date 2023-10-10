@@ -1,0 +1,17 @@
+algorithme:maximum
+variables    tableau T(10):entier
+	     i:entier
+	     min:entier
+debut
+	pour i<--0 a 9 pas 1 faire
+	 ecrire("enter un nombre")
+	 lire(T(i))
+	fin pour
+	max<--0
+	pour i<--0 a 9 pas 1 faire 
+	 si max<T(i) alors 
+	 max =T(i)
+	fin si 
+	fin pour
+	ecrire("le maximum est:" max)
+fin

@@ -1,0 +1,18 @@
+algorithme:calcule
+variables  :    tableau nombre(10):reel
+		i:entier
+		s,p,m:reel
+debut
+	s<--0
+	p<--1
+	pouri<--0 a 9 pas 1 faire
+	 ecrire("veuillez entrer un nombre:")
+	 lire(nombre)
+	 s<--s+nombre(i)
+	 p<--p+nombe(i)
+	fin pour
+	m<--s/10
+ 	
+	ecrire("la somme estt:",s)
+	ecrire("le produit est:",p)
+	ecrire("la moyenne est:",m)

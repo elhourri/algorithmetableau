@@ -1,0 +1,17 @@
+algorithme:minimum
+variables    tableau T(10):entier
+	     i:entier
+	     min:entier
+debut
+	pour i<--0 a 9 pas 1 faire
+	 ecrire("enter un nombre")
+	 lire(T(i))
+	fin pour
+	min<--0
+	pour i<--0 a 9 pas 1 faire 
+	 si min<T(i) alors 
+	 min =T(i)
+	fin si 
+	fin pour
+	ecrire("le minimum est:" min)
+fin

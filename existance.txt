@@ -1,0 +1,21 @@
+algorithme:existance
+variables      tableau T(10): entier
+	       c,n,i:entier
+debut
+	pour i<--0 a 9 faire 
+	 ecrire("entrer un nombre:")
+	 lire(nombre(i))
+	fin pour
+	ecrire("entrer un nombre")
+	c<--0
+	pouri<--0 a 9 faire
+	 si n=T(i) alors
+	 c<---c+1
+	fin si
+	fin pour
+	si c>0 alors
+	ecrire("nombre existe")
+	sinon
+	ecrire("nombre n existe pas")
+	fin si
+	fin

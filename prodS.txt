@@ -1,0 +1,15 @@
+algorithme:produit_scalaire
+variables   tableau V(3):REEL
+            tableau U(3):REEL
+	    i:entier
+	    ps:reel
+debut
+	pour i<--0 a 2 pas 1 faire
+	 ecrire("entrer les coef du vecteur V:")
+	 lire(V(i))
+	 ecrire("entrer les coef du vecteur U:")
+	 lire(U(i)) 
+	fin pour
+	ps<--(v(0)*U(0)) + (V(1)*U(1)) + (V(2)*U(2))
+	ecrire("le poduit scalaire est:"ps)
+fin

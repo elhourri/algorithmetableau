@@ -1,0 +1,11 @@
+algorithme:tableau
+variables  :  tableau T(10):entier
+	      i:entier
+debut
+	pouri<--0 a 9 pas1 faire 
+	 T(i)<--0
+	fin pour
+	pour i<--0 a 9 pas 1 faire
+	 ecrire(T(i))
+	fin pour
+fin
